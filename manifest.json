@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "My Ad Blocker",
+  "version": "0.0.1",
+  "description": "My Ad Blocker helps you to automatically block advertisements.",
+  "icons": {
+	"64": "icon64.png",
+	"128": "icon128.png",
+	"256": "icon256.png"
+  },
+  "author": "Yifan Ai",
+  "background": {
+	"scripts": [
+	  "index.js"
+	],
+	"persistent": true
+  },
+  "permissions": [
+	"webRequest",
+	"webRequestBlocking",
+	"<all_urls>"
+  ],
+  "homepage_url": "https://www.yifanai.com/"
+}
