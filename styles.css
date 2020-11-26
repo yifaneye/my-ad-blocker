@@ -1,30 +1,9 @@
-iframe {
-  opacity: 0.5;
-}
-iframe:hover {
-  opacity: 0.75;
-}
-iframe:focus {
-  opacity: 1;
-}
-iframe[id^=google_ads_iframe], iframe[data-embeddedads] {
-  opacity: 0;
-}
-iframe[id^=google_ads_iframe]:hover, iframe[data-embeddedads]:hover {
-  opacity: 0;
-}
-iframe[id^=google_ads_iframe]:focus, iframe[data-embeddedads]:focus {
-  opacity: 0;
-}
-
-[id^=google_ads_iframe], [aria-label=Ads], .commercial-unit-desktop-top {
-  opacity: 0;
-}
-[id^=google_ads_iframe]:hover, [aria-label=Ads]:hover, .commercial-unit-desktop-top:hover {
-  opacity: 0;
-}
-[id^=google_ads_iframe]:focus, [aria-label=Ads]:focus, .commercial-unit-desktop-top:focus {
-  opacity: 0;
+[data-embeddedads], [id^=google_ads_iframe], [aria-label=Ads], .commercial-unit-desktop-top {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
 }
 
 /*# sourceMappingURL=styles.css.map */

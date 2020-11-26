@@ -23,13 +23,3 @@ chrome.webRequest.onBeforeRequest.addListener(
 	},
 	["blocking"]
 );
-
-(function set_show_iframe_listeners() {
-	let iframes = document.querySelectorAll('iframe');
-	iframes.forEach(iframe => {
-			iframe.addEventListener('click', () => {
-				iframe.focus();
-			});
-		}
-	);
-})();

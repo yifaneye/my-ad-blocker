@@ -1,35 +1,7 @@
-iframe {
-  opacity: 0.5;
-
-  &:hover {
-	opacity: 0.75;
-  }
-
-  &:focus {
-	opacity: 1;
-  }
-
-  &[id^=google_ads_iframe], &[data-embeddedads] {
-	opacity: 0;
-
-	&:hover {
-	  opacity: 0;
-	}
-
-	&:focus {
-	  opacity: 0;
-	}
-  }
-}
-
-[id^=google_ads_iframe], [aria-label="Ads"], .commercial-unit-desktop-top {
-  opacity: 0;
-
-  &:hover {
-	opacity: 0;
-  }
-
-  &:focus {
-	opacity: 0;
-  }
+[data-embeddedads], [id^=google_ads_iframe], [aria-label="Ads"], .commercial-unit-desktop-top {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
 }
