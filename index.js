@@ -17,8 +17,9 @@ chrome.webRequest.onBeforeRequest.addListener(
 				"*://*.adiktivebanners.com/*",
 				"*://*.n1272serv.xyz/*",
 				"*://*.2020mustang.com/*",
+				"*://*.outbrainimg.com/*",
 			],
-		types: ['sub_frame']
+		types: ['sub_frame', 'image', 'main_frame']
 	},
 	["blocking"]
 );
