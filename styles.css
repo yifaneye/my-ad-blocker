@@ -17,4 +17,14 @@ iframe[id^=google_ads_iframe]:focus, iframe[data-embeddedads]:focus {
   opacity: 0;
 }
 
+[id^=google_ads_iframe] {
+  opacity: 0;
+}
+[id^=google_ads_iframe]:hover {
+  opacity: 0;
+}
+[id^=google_ads_iframe]:focus {
+  opacity: 0;
+}
+
 /*# sourceMappingURL=styles.css.map */

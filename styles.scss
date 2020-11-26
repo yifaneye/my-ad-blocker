@@ -21,3 +21,15 @@ iframe {
 	}
   }
 }
+
+[id^=google_ads_iframe] {
+  opacity: 0;
+
+  &:hover {
+	opacity: 0;
+  }
+
+  &:focus {
+	opacity: 0;
+  }
+}
