@@ -1,0 +1,20 @@
+iframe {
+  opacity: 0.5;
+}
+iframe:hover {
+  opacity: 0.75;
+}
+iframe:focus {
+  opacity: 1;
+}
+iframe[id^=google_ads_iframe], iframe[data-embeddedads] {
+  opacity: 0;
+}
+iframe[id^=google_ads_iframe]:hover, iframe[data-embeddedads]:hover {
+  opacity: 0;
+}
+iframe[id^=google_ads_iframe]:focus, iframe[data-embeddedads]:focus {
+  opacity: 0;
+}
+
+/*# sourceMappingURL=styles.css.map */

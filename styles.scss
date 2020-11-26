@@ -1,0 +1,23 @@
+iframe {
+  opacity: 0.5;
+
+  &:hover {
+	opacity: 0.75;
+  }
+
+  &:focus {
+	opacity: 1;
+  }
+
+  &[id^=google_ads_iframe], &[data-embeddedads] {
+	opacity: 0;
+
+	&:hover {
+	  opacity: 0;
+	}
+
+	&:focus {
+	  opacity: 0;
+	}
+  }
+}
