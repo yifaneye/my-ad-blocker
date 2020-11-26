@@ -17,13 +17,13 @@ iframe[id^=google_ads_iframe]:focus, iframe[data-embeddedads]:focus {
   opacity: 0;
 }
 
-[id^=google_ads_iframe] {
+[id^=google_ads_iframe], [aria-label=Ads], .commercial-unit-desktop-top {
   opacity: 0;
 }
-[id^=google_ads_iframe]:hover {
+[id^=google_ads_iframe]:hover, [aria-label=Ads]:hover, .commercial-unit-desktop-top:hover {
   opacity: 0;
 }
-[id^=google_ads_iframe]:focus {
+[id^=google_ads_iframe]:focus, [aria-label=Ads]:focus, .commercial-unit-desktop-top:focus {
   opacity: 0;
 }
 
