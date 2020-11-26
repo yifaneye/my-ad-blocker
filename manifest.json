@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "My Ad Blocker",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "My Ad Blocker helps you to automatically block advertisements.",
   "icons": {
 	"64": "icon64.png",
